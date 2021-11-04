@@ -2,6 +2,10 @@ name: Build Docker image
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      # build again on modified Dockerfile
+      - Dockerfile
 
 env:
   PLATFORMS: "linux/amd64, linux/arm64"
