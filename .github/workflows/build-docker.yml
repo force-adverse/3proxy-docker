@@ -29,5 +29,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          platforms: ${{env.PLATFORMS}}
           tags: ghcr.io/force-adverse/3proxy-docker:latest
           file: ./Dockerfile
