@@ -8,3 +8,7 @@ See [the build Action](./.github/workflows/build-docker.yml) for more informatio
 ## Binary
 
 Built binary is available @ `/usr/local/bin/3proxy`
+
+## Info for FORAD members
+
+Image can be found at `ghcr.io/force-adverse/3proxy-docker:latest`
