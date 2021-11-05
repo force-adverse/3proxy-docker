@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Archives
+*.tgz
+
+# Sensitive env files
+.env
+
+# IDE files
+.idea
+.vscode
